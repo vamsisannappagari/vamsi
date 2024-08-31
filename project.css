@@ -1,0 +1,141 @@
+
+body
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(185,217,14,1) 88%, rgba(0,212,255,1) 100%);
+
+margin: 0;
+padding: 0;
+}
+.heading{
+    padding-top: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.logo img
+{
+    height: 100px;
+    width:100px;
+    padding-right: 20px;
+}
+.input
+{
+    padding: 30px;
+    display: flex;
+    flex-grow: 1;
+    height: 20px;
+    
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(228, 27, 104);
+    cursor: pointer;
+}
+.anchor{
+    padding:20px;
+    margin-left: 20px;
+}
+.anchor a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.anchor a:hover{
+    text-decoration: underline;
+}
+
+.Account{
+    
+   padding:20px;
+   padding-right: 0px;
+   
+}
+.cart{
+    padding: 20px;
+    padding-right: 0px;
+}
+button:hover{
+    color: rgb(50, 15, 208);
+    
+}
+.image{
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    padding-left: 40px;
+}
+.hero-section img{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    height:400px;
+    width: 100%;
+    border-radius: 50px;
+   
+}
+.clothes-section img{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    height:400px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.mobile-page img{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    height:400px;
+    width: 100%;
+    border-radius: 50px;
+}
+.final-page img{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    height:400px;
+    width: 100%;
+    border-radius: 50px;
+
+}
+.footer
+{
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.footer-section{
+    margin: 20px;
+}
+.footer-link h4{
+    margin-top: 0px;
+
+}
+.footer-section ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.footer-link li{
+    margin-bottom: 10px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: blue;
+}
+.footer-copyright
+{
+    text-align: center;
+    color:peachpuff;
+    font-size: 15px;
+}

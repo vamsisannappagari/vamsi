@@ -1,0 +1,54 @@
+#ultraboot
+{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    font-weight: 900px;
+    color: black;
+}
+#shopbutton
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+}
+#middle
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-section img:hover
+{
+border: 5px solid wheat;
+border-radius: 5px;
+}
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 35px;
+    justify-content: flex-start;
+    margin: 100px auto;
+}
+.product-card
+{
+    background-color: floralwhite;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px black ;
+    overflow: hidden;
+    transition: transform 0.3s ;
+    box-shadow: 0.3s;
+}    
+.product-card:hover
+{
+transform: translateY(-20px);
+border: 10px solid blanchedalmond;
+}
+.product-card img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    
+}
